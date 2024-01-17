@@ -10,7 +10,8 @@ import {
   Input,
   Error,
   Switcher,
-} from "../component/auth-component";
+} from "../style/auth-component";
+import GithubButton from "../component/github-button";
 
 const CreateAccount = () => {
   const navigate = useNavigate();
@@ -94,6 +95,7 @@ const CreateAccount = () => {
         Already have an account?
         <Link to="/login">Log in &rarr;</Link>
       </Switcher>
+      <GithubButton />
     </Wrapper>
   );
 };

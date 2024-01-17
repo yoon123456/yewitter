@@ -10,7 +10,8 @@ import {
   Input,
   Error,
   Switcher,
-} from "../component/auth-component";
+} from "../style/auth-component";
+import GithubButton from "../component/github-button";
 
 // export const errors = {
 //   "auth/email-already-in-use": "That email already exists.",
@@ -76,6 +77,7 @@ const Login = () => {
         Don't have an account?
         <Link to="/create-account">Create one &rarr;</Link>
       </Switcher>
+      <GithubButton />
     </Wrapper>
   );
 };
