@@ -12,6 +12,7 @@ import {
   Switcher,
 } from "../style/auth-component";
 import GithubButton from "../component/github-button";
+import GoogleButton from "../component/google-button";
 
 const CreateAccount = () => {
   const navigate = useNavigate();
@@ -96,6 +97,7 @@ const CreateAccount = () => {
         <Link to="/login">Log in &rarr;</Link>
       </Switcher>
       <GithubButton />
+      <GoogleButton />
     </Wrapper>
   );
 };

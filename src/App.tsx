@@ -32,3 +32,5 @@ function App() {
 }
 
 export default App;
+
+// 비밀번호 변경 이메일 전송 기능 추가 해야함

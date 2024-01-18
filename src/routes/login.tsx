@@ -12,6 +12,7 @@ import {
   Switcher,
 } from "../style/auth-component";
 import GithubButton from "../component/github-button";
+import GoogleButton from "../component/google-button";
 
 // export const errors = {
 //   "auth/email-already-in-use": "That email already exists.",
@@ -78,6 +79,7 @@ const Login = () => {
         <Link to="/create-account">Create one &rarr;</Link>
       </Switcher>
       <GithubButton />
+      <GoogleButton />
     </Wrapper>
   );
 };
