@@ -96,7 +96,7 @@ export default function Layout() {
               fillRule="evenodd"
               d="M19 10a.75.75 0 00-.75-.75H8.704l1.048-.943a.75.75 0 10-1.004-1.114l-2.5 2.25a.75.75 0 000 1.114l2.5 2.25a.75.75 0 101.004-1.114l-1.048-.943h9.546A.75.75 0 0019 10z"
             />
-          </svg>{" "}
+          </svg>
         </MenuItem>
       </Menu>
       <Outlet />
